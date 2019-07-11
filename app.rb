@@ -42,6 +42,6 @@ class App < Sinatra::Base
     elsif @operation == "divide"
       answer = number1 / number2
     end
-    "#{answer}"
+    "#{answer}.to_s"
   end
 end

@@ -36,11 +36,11 @@ class App < Sinatra::Base
     if @operation == "add"
       answer = @number1 + @number2
     elsif @operation == "subtract"
-      answer = @number1 - number2
+      answer = @number1 - @number2
     elsif @operation == "multiply"
-      answer = number1 * number2
+      answer = @number1 * @number2
     elsif @operation == "divide"
-      answer = number1 / number2
+      answer = @number1 / @number2
     end
     "#{answer}.to_s"
   end

@@ -43,6 +43,6 @@ class App < Sinatra::Base
       answer = @number1 / @number2
     else answer = "Can't perform this operation"
     end
-    "#{answer}.to_s"
+    answer.to_s
   end
 end

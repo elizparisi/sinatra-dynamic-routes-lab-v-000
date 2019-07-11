@@ -39,7 +39,7 @@ class App < Sinatra::Base
     
     elsif @operation == "multiply"
     
-    else @operation == "divide"
+    elsif @operation == "divide"
     
   end
 
